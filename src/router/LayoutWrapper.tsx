@@ -1,5 +1,5 @@
-import { Footer } from "@/components/customs/footer";
-import { Navbar } from "@/components/customs/navbar";
+import { Navbar } from "@/components/customs/Navbar";
+import { Footer } from "@/components/customs/Footer";
 import { Outlet } from "react-router-dom";
 
 interface LayoutWrapperProps {

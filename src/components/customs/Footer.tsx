@@ -14,7 +14,7 @@ export const Footer = () => {
             ©{currentYear} {t("footer.rights")}
           </p>
           <Link
-            to="https://github.com/teovlt"
+            to="https://github.com/mayeul-deries"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 md:mt-0 text-gray-500 dark:text-white hover:text-black dark:hover:text-neutral-300 transition"

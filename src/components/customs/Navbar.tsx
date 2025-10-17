@@ -5,8 +5,8 @@ import { useTranslation } from "react-i18next";
 
 import { Separator } from "@/components/ui/separator";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
-import { ThemeChanger } from "./theme-changer";
-import { LanguageChanger } from "./language-changer";
+import { ThemeChanger } from "./ThemeChanger";
+import { LanguageChanger } from "./LanguageChanger";
 
 export const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -17,9 +17,8 @@ export const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        {/* Logo */}
         <Link to="/" onClick={close} className="text-xl font-bold hover:opacity-80 transition-colors">
-          YourLogo
+          Mayeul
         </Link>
 
         {/* Desktop */}
@@ -42,7 +41,7 @@ export const Navbar = () => {
               <SheetTitle />
               <div className="flex items-center justify-between">
                 <Link to="/" onClick={close} className="text-xl font-bold hover:opacity-80 transition-colors">
-                  YourLogo
+                  Mayeul
                 </Link>
               </div>
 
@@ -54,8 +53,10 @@ export const Navbar = () => {
 
               <Separator />
 
-              <ThemeChanger />
-              <LanguageChanger />
+              <div className="flex justify-center gap-4">
+                <ThemeChanger />
+                <LanguageChanger />
+              </div>
             </SheetContent>
           </Sheet>
         </div>
