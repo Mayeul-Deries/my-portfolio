@@ -1,52 +1,37 @@
 import { useTranslation } from "react-i18next";
-import { FR, GB } from "country-flag-icons/react/3x2";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "../ui/dropdown-menu";
-import { Globe } from "lucide-react";
-import { getFullNamesOfLocales, listOfLocales } from "@/lib/i18n";
-import { Button } from "../ui/button";
+import { useState } from "react";
+import { FR, US } from "country-flag-icons/react/3x2";
 import { toast } from "sonner";
+import { Button } from "../ui/button";
 
 export const LanguageChanger = () => {
   const {
-    i18n: { changeLanguage, language, t },
+    i18n: { changeLanguage, language },
+    t,
   } = useTranslation();
 
-  const handleChangeLanguage = (l: string) => {
-    localStorage.setItem("i18nextLng", l);
-    changeLanguage(l);
+  const [currentLanguage, setCurrentLanguage] = useState(language);
+
+  const handleChangeLanguage = () => {
+    const newLanguage = currentLanguage === "fr" ? "en" : "fr";
+    localStorage.setItem("i18nextLng", newLanguage);
+    setCurrentLanguage(newLanguage);
+    changeLanguage(newLanguage);
     toast.success(t("navbar.languageChanged"));
   };
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild className="cursor-pointer text-primary">
-        <Button variant="ghost" size="sm">
-          <Globe className="w-5 h-5" />
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-40">
-        <DropdownMenuLabel>{t("navbar.language")}</DropdownMenuLabel>
-        <DropdownMenuSeparator />
-        {listOfLocales.map((l) => (
-          <DropdownMenuItem
-            key={l}
-            onClick={() => handleChangeLanguage(l)}
-            className={` cursor-pointer flex items-center ${language === l ? "bg-secondary" : ""}`}
-          >
-            {l === "fr" && <FR />}
-            {l === "en" && <GB />}
-
-            {getFullNamesOfLocales(l)}
-          </DropdownMenuItem>
-        ))}
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <Button variant="ghost" size="sm" onClick={handleChangeLanguage}>
+      <FR
+        className={`h-[1.2rem] w-[1.2rem] transition-all duration-300 ${
+          currentLanguage === "fr" ? "rotate-0 scale-100" : "rotate-90 scale-0"
+        }`}
+      />
+      <US
+        className={`absolute h-[1.2rem] w-[1.2rem] transition-all duration-300 ${
+          currentLanguage === "en" ? "rotate-0 scale-100" : "rotate-90 scale-0"
+        }`}
+      />
+    </Button>
   );
 };
