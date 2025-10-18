@@ -6,6 +6,10 @@
   },
   "navbar": {
     "home": "Home",
+    "about": "About",
+    "experiences": "Experiences",
+    "projects": "Projects",
+    "contact": "Contact",
     "language": "Language",
     "languageChanged": "Language changed to English."
   },
