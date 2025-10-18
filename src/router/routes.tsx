@@ -1,15 +1,29 @@
+import { createBrowserRouter, Outlet } from "react-router-dom";
 import { Home } from "@/pages/Home";
-import { Routes, Route } from "react-router-dom";
-import { LayoutWrapper } from "./LayoutWrapper";
+import { Navbar } from "@/components/customs/Navbar";
+import { Footer } from "@/components/customs/Footer";
 
-export const Router = () => {
-  return (
-    <>
-      <Routes>
-        <Route element={<LayoutWrapper />}>
-          <Route path="/" element={<Home />} />
-        </Route>
-      </Routes>
-    </>
-  );
-};
+const RootLayout = () => (
+  <>
+    <Navbar />
+    <Outlet />
+    <Footer />
+  </>
+);
+
+export const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      {
+        path: "/",
+        element: (
+          <>
+            <Home />
+          </>
+        ),
+      },
+    ],
+  },
+]);
