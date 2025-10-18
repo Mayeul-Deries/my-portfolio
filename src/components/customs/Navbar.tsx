@@ -80,7 +80,7 @@ export const Navbar = () => {
             </Link>
           </div>
 
-          <div className="flex gap-8 font-light">
+          <div className="flex gap-8 font-light text-gray-600 dark:text-neutral-3s00">
             {navItems.map((item) => (
               <Link
                 key={item.id}
