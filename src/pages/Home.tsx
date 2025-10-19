@@ -143,7 +143,7 @@ export const Home = () => {
             className="flex items-center justify-center"
             size="icon"
             aria-label="Voir la section À propos"
-            onClick={(e) => scrollToSection("about", e)}
+            onClick={(e) => scrollToSection("experiences", e)}
           >
             <motion.div
               animate={{ y: [0, 8, 0] }}
