@@ -1,7 +1,12 @@
 {
   "pages": {
     "home": {
-      "home": "Accueil"
+      "me": "Étudiant en ingénierie logicielle, je me spécialise dans la création d'applications modernes et performantes. Mon parcours m'a permis de développer une expertise solide en développement full-stack, avec un intérêt particulier pour les technologies émergentes comme l'intelligence artificielle et le cloud computing.",
+      "skills": "Technologies & Outils",
+      "button": {
+        "action1": "Contactez-moi",
+        "action2": "Mes projets"
+      }
     }
   },
   "navbar": {

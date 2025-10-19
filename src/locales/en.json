@@ -1,7 +1,12 @@
 {
   "pages": {
     "home": {
-      "home": "Home"
+      "me": "As a software engineering student, I specialize in creating modern and high-performance applications. My journey has allowed me to develop strong expertise in full-stack development, with a particular interest in emerging technologies such as artificial intelligence and cloud computing.",
+      "skills": "Main stack & Tools",
+      "button": {
+        "action1": "Contact Me",
+        "action2": "My Projects"
+      }
     }
   },
   "navbar": {

@@ -1,4 +1,4 @@
-import { Briefcase, FileText, House, Info, Mail, Menu, X } from "lucide-react";
+import { Briefcase, FileText, House, Mail, Menu, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -20,7 +20,6 @@ export const Navbar = () => {
 
   const navItems = [
     { id: "home", label: t("navbar.home"), icon: <House className="w-4 h-4" /> },
-    { id: "about", label: t("navbar.about"), icon: <Info className="w-4 h-4" /> },
     { id: "experiences", label: t("navbar.experiences"), icon: <Briefcase className="w-4 h-4" /> },
     { id: "projects", label: t("navbar.projects"), icon: <FileText className="w-4 h-4" /> },
     { id: "contact", label: t("navbar.contact"), icon: <Mail className="w-4 h-4" /> },
@@ -67,8 +66,8 @@ export const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 z-50 w-full  transition-all duration-200  ${
-        isScrolled ? "bg-background/80 backdrop-blur-md shadow-sm py-3" : "bg-transparent py-3"
+      className={`fixed top-0 z-50 w-full transition-all duration-100  ${
+        isScrolled ? "bg-background/60 backdrop-blur-md py-3" : "bg-transparent py-3"
       }`}
     >
       <div className="container mx-auto px-4">
@@ -80,7 +79,7 @@ export const Navbar = () => {
             </Link>
           </div>
 
-          <div className="flex gap-8 font-light text-gray-600 dark:text-neutral-3s00">
+          <div className="flex gap-8 font-light text-gray-600 dark:text-neutral-300">
             {navItems.map((item) => (
               <Link
                 key={item.id}
