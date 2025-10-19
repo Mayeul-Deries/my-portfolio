@@ -6,6 +6,11 @@
       "button": {
         "action1": "Contact Me",
         "action2": "My Projects"
+      },
+      "rotating_texts": {
+        "fullstack_dev": "Full-Stack Developer",
+        "tech_explorer": "Tech Explorer",
+        "uiux_lover": "UI/UX Lover"
       }
     }
   },

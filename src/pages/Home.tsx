@@ -9,7 +9,7 @@ import { easeOut, motion } from "framer-motion";
 export const Home = () => {
   const { t } = useTranslation();
 
-  const rotatingTexts = ["Fullstack Developer", "Tech Explorer", "UI/UX Lover"];
+  const rotatingTexts = ["fullstack_dev", "tech_explorer", "uiux_lover"];
   const skills = [
     "React",
     "Angular",
@@ -71,7 +71,7 @@ export const Home = () => {
               className="flex text:lg sm:text-xl font-normal text-muted-foreground mb-4 min-h-10 sm:min-h-16 items-center justify-center text-center px-4 sm:px-8"
               variants={itemVariants}
             >
-              <span className="break-words max-w-full">{rotatingTexts[index]}</span>
+              <span className="break-words max-w-full">{t(`pages.home.rotating_texts.${rotatingTexts[index]}`)}</span>
             </motion.h2>
           </div>
 
