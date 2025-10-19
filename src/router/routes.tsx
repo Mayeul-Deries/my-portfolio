@@ -2,6 +2,7 @@ import { createBrowserRouter, Outlet } from "react-router-dom";
 import { Home } from "@/pages/Home";
 import { Navbar } from "@/components/customs/Navbar";
 import { Footer } from "@/components/customs/Footer";
+import { Experiences } from "@/pages/Experiences";
 
 const RootLayout = () => (
   <>
@@ -21,6 +22,7 @@ export const router = createBrowserRouter([
         element: (
           <>
             <Home />
+            <Experiences />
           </>
         ),
       },

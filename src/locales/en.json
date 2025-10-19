@@ -12,6 +12,41 @@
         "tech_explorer": "Tech Explorer",
         "uiux_lover": "UI/UX Lover"
       }
+    },
+    "experiences": {
+      "title": "My Journey",
+      "list_experiences": {
+        "sopra_steria": {
+          "role": "Apprentice Java Developer",
+          "period": "2025 - Present",
+          "description": "Participation in the development of the ARPEGE project (national system for automating the management of sick leave and daily allowances for Social Security) by implementing front-end and back-end functionalities (AngularJS, Java, Python) in an agile environment."
+        },
+        "capgemini": {
+          "role": "Apprentice Software Developer",
+          "period": "2024 - 2025",
+          "description": "Contribution to the development of a computer-aided maintenance management system (C#, SQL)."
+        },
+        "imt_mines_ales": {
+          "role": "Software Engineering Student",
+          "period": "2024 - Present",
+          "description": "Engineering program in computer science and networks through an apprenticeship, specializing in software development."
+        },
+        "gtrsuite": {
+          "role": "Full-Stack Web Developer Apprentice",
+          "period": "2023 - 2024",
+          "description": "Design and development of front-end and back-end features for a Drive-To-Store application (Vue.js, Node.js, Nest.js) in an agile environment."
+        },
+        "stmicroelectronics": {
+          "role": "Full-Stack Web Developer Intern",
+          "period": "2023",
+          "description": "Maintenance of Node.js libraries, proactive bug fixes, and development of new full-stack features on various tools (Vue.js, Express, MongoDB)."
+        },
+        "iut_grenoble": {
+          "role": "Student - Application Development",
+          "period": "2021 - 2024",
+          "description": "Bachelor's degree in computer science with a specialization in application development."
+        }
+      }
     }
   },
   "navbar": {

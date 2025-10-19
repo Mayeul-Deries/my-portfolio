@@ -12,6 +12,41 @@
         "tech_explorer": "Explorateur Technologique",
         "uiux_lover": "Passionné de UI/UX"
       }
+    },
+    "experiences": {
+      "title": "Mon parcours",
+      "list_experiences": {
+        "sopra_steria": {
+          "role": "Alternant développeur Java",
+          "period": "2025 - Présent",
+          "description": "Participation au développement du projet ARPEGE (système national d'automatisation de la gestion des arrêts maladie et des indemnités journalières pour la Sécurité Sociale) en implémentant des fonctionnalités front-end et back-end (AngularJS, Java, Python) dans un cadre agile."
+        },
+        "capgemini": {
+          "role": "Alternant développeur logiciel",
+          "period": "2024 - 2025",
+          "description": "Contribution au développement d'un système de gestion de maintenance assistée par ordinateur (C#, SQL)."
+        },
+        "imt_mines_ales": {
+          "role": "Élève ingénieur - Développement logiciel",
+          "period": "2024 - Présent",
+          "description": "Formation d'ingénieur en informatique et réseaux en alternance, avec une spécialisation en développement logiciel."
+        },
+        "gtrsuite": {
+          "role": "Alternant développeur web full-stack",
+          "period": "2023 - 2024",
+          "description": "Conception et développement de fonctionnalités front-end et back-end sur une application de Drive-To-Store (Vue.js, Node.js, Nest.js) dans un environnement agile."
+        },
+        "stmicroelectronics": {
+          "role": "Stagiaire développeur web full-stack",
+          "period": "2023",
+          "description": "Maintenance des bibliothèques Node.js, correction proactive de bugs et développement de nouvelles fonctionnalités full-stack sur différents outils (Vue.js, Express, MongoDB)."
+        },
+        "iut_grenoble": {
+          "role": "Élève - Réalisation d'applications",
+          "period": "2021 - 2024",
+          "description": "Bachelor en informatique avec une spécialisation en développement d'applications."
+        }
+      }
     }
   },
   "navbar": {
