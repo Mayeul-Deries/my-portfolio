@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowDown, ArrowRight, Code2, Download, Heart, Sparkles, Star, Users } from "lucide-react";
+import { ArrowDown, Heart } from "lucide-react";
 import { scrollToSection } from "@/utils/scrollToSection";
 import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/ui/badge";
-import { motion } from "framer-motion";
+import { easeOut, motion } from "framer-motion";
 
 export const Home = () => {
   const { t } = useTranslation();
@@ -52,7 +52,7 @@ export const Home = () => {
       y: 0,
       transition: {
         duration: 0.5,
-        ease: "easeOut",
+        ease: easeOut,
       },
     },
   };
@@ -63,16 +63,22 @@ export const Home = () => {
         <motion.div className="text-center max-w-5xl mx-auto" initial="hidden" animate="visible" variants={containerVariants}>
           {/* Presentation */}
           <div className="mb-4">
-            <motion.h1 className="text-4xl sm:text-6xl font-bold mb-2">
+            <motion.h1 className="text-4xl sm:text-6xl font-bold mb-2" variants={itemVariants}>
               <span className="text-foreground">Mayeul Deries</span>
             </motion.h1>
 
-            <motion.h2 className="flex text:lg sm:text-xl font-normal text-muted-foreground mb-4 min-h-10 sm:min-h-16 items-center justify-center text-center px-4 sm:px-8">
+            <motion.h2
+              className="flex text:lg sm:text-xl font-normal text-muted-foreground mb-4 min-h-10 sm:min-h-16 items-center justify-center text-center px-4 sm:px-8"
+              variants={itemVariants}
+            >
               <span className="break-words max-w-full">{rotatingTexts[index]}</span>
             </motion.h2>
           </div>
 
-          <motion.p className="text-sm sm:text-lg text-muted-foreground mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
+          <motion.p
+            className="text-sm sm:text-lg text-muted-foreground mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed"
+            variants={itemVariants}
+          >
             {t("pages.home.me")}
           </motion.p>
 
@@ -85,7 +91,7 @@ export const Home = () => {
               </h3>
               <motion.div className="flex flex-wrap justify-center gap-2">
                 {skills.map((skill, index) => (
-                  <motion.div key={index} whileHover={{ y: -3 }}>
+                  <motion.div key={index} whileHover={{ y: -3 }} variants={itemVariants}>
                     <Badge
                       variant="secondary"
                       className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 hover:bg-green-200 dark:hover:bg-green-800 transition-colors cursor-pointer"
@@ -100,7 +106,7 @@ export const Home = () => {
 
           {/* CTA Buttons */}
 
-          <motion.div className="flex flex-col sm:flex-row gap-2 justify-center items-center w-full">
+          <motion.div className="flex flex-col sm:flex-row gap-2 justify-center items-center w-full" variants={itemVariants}>
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
