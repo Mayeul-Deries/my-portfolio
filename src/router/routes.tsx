@@ -3,6 +3,7 @@ import { Home } from "@/pages/Home";
 import { Navbar } from "@/components/customs/Navbar";
 import { Footer } from "@/components/customs/Footer";
 import { Experiences } from "@/pages/Experiences";
+import { Projects } from "@/pages/Projects";
 
 const RootLayout = () => (
   <>
@@ -23,6 +24,7 @@ export const router = createBrowserRouter([
           <>
             <Home />
             <Experiences />
+            <Projects />
           </>
         ),
       },

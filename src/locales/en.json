@@ -19,33 +19,73 @@
         "sopra_steria": {
           "role": "Apprentice Java Developer",
           "period": "2025 - Present",
-          "description": "Participation in the development of the ARPEGE project (national system for automating the management of sick leave and daily allowances for Social Security) by implementing front-end and back-end functionalities (AngularJS, Java, Python) in an agile environment."
+          "description": "Contributed to the development of the ARPEGE project (a national system automating sick leave and daily allowance management for the French Social Security) by implementing front-end and back-end features (AngularJS, Java, Python) in an agile environment."
         },
         "capgemini": {
           "role": "Apprentice Software Developer",
           "period": "2024 - 2025",
-          "description": "Contribution to the development of a computer-aided maintenance management system (C#, SQL)."
+          "description": "Contributed to the development of a Computerized Maintenance Management System (C#, SQL)."
         },
         "imt_mines_ales": {
-          "role": "Software Engineering Student",
+          "role": "Student - Software Engineering",
           "period": "2024 - Present",
-          "description": "Engineering program in computer science and networks through an apprenticeship, specializing in software development."
+          "description": "Engineering program in computer science and networks through a work-study format, specializing in software development."
         },
         "gtrsuite": {
-          "role": "Full-Stack Web Developer Apprentice",
+          "role": "Apprentice Full-Stack Web Developer",
           "period": "2023 - 2024",
-          "description": "Design and development of front-end and back-end features for a Drive-To-Store application (Vue.js, Node.js, Nest.js) in an agile environment."
+          "description": "Designed and developed front-end and back-end features for a Drive-To-Store marketing platform (Vue.js, Node.js, Nest.js) within an agile environment."
         },
         "stmicroelectronics": {
           "role": "Full-Stack Web Developer Intern",
           "period": "2023",
-          "description": "Maintenance of Node.js libraries, proactive bug fixes, and development of new full-stack features on various tools (Vue.js, Express, MongoDB)."
+          "description": "Maintained Node.js libraries, proactively fixed bugs, and developed new full-stack features for internal tools (Vue.js, Express, MongoDB)."
         },
         "iut_grenoble": {
           "role": "Student - Application Development",
           "period": "2021 - 2024",
-          "description": "Bachelor's degree in computer science with a specialization in application development."
+          "description": "Bachelor's degree in Computer Science with a specialization in application development."
         }
+      }
+    },
+    "projects": {
+      "title": "My Projects",
+      "description": "Here is a selection of projects I have worked on, showcasing my skills in software development.",
+      "labels": {
+        "key_features": "Key Features",
+        "tech_stack": "Tech Stack"
+      },
+      "list_projects": {
+        "job_tracker": {
+          "description": "Developed an application allowing job seekers to centralize and track their job applications.",
+          "key_features": ["Authentication", "Job Applications Management", "Advanced Filtering", "Responsive UI", "Internationalization"]
+        },
+        "pharmadesk": {
+          "description": "Built a secure and GDPR-compliant platform for a pharmacy client, reducing administrative workload through document storage and team collaboration. Developed as part of a school team project.",
+          "key_features": [
+            "Authentication",
+            "RBAC",
+            "Call History Management with Doctors",
+            "Document Management System (DMS)",
+            "Knowledge Sharing Between Specialties",
+            "Internal Communication Interface",
+            "Vaccine Inventory & Tracking"
+          ]
+        },
+        "lets_go_lego": {
+          "description": "Created an online real-time auction platform for Lego lovers, allowing them to buy, sell, and bid on unique Lego products. Developed as part of a school team project.",
+          "key_features": ["Authentication", "Real-time Bidding", "RBAC", "Transaction Management", "WebSocket"]
+        },
+        "portfolio": {
+          "description": "My portfolio showcasing my skills, experiences, and projects as a software developer.",
+          "key_features": ["Responsive Design", "Dark Mode", "Internationalization", "Animations"]
+        }
+      },
+      "buttons": {
+        "code": "Source code",
+        "demo": "Demo",
+        "no_code": "Confidential source code",
+        "no_demo": "Demo not available"
       }
     }
   },

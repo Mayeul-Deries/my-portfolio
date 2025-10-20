@@ -47,6 +47,58 @@
           "description": "Bachelor en informatique avec une spécialisation en développement d'applications."
         }
       }
+    },
+    "projects": {
+      "title": "Mes Projets",
+      "description": "Voici une sélection de projets sur lesquels j'ai travaillé, mettant en avant mes compétences en développement logiciel.",
+      "labels": {
+        "key_features": "Fonctionnalités clés",
+        "tech_stack": "Stack technique"
+      },
+      "list_projects": {
+        "job_tracker": {
+          "description": "Développement d'une application visant à simplifier et à organiser le suivi des candidatures d'emplois du point de vue des candidats.",
+          "key_features": [
+            "Authentification",
+            "Gestion des candidatures",
+            "Filtrage avancé",
+            "Interface responsive",
+            "Internationalisation"
+          ]
+        },
+        "pharmadesk": {
+          "description": "Création d'une plateforme sécurisée et conforme au RGPD pour une pharmacie, réduisant la charge administrative via le stockage de documents et la collaboration d'équipe. Développé en groupe dans le cadre d'un projet scolaire.",
+          "key_features": [
+            "Authentification",
+            "RBAC (contrôle d'accès par rôle)",
+            "Gestion de l'historique des appels aux médecins",
+            "Gestion documentaire (DMS)",
+            "Partage de connaissances entre spécialités",
+            "Interface de communication interne",
+            "Gestion et suivi des vaccins"
+          ]
+        },
+        "lets_go_lego": {
+          "description": "Création d'une plateforme d'enchères en ligne en temps réel dédiée aux fans de Lego, permettant d'acheter, vendre et enchérir sur des produits uniques. Développé en équipe dans le cadre d'un projet scolaire.",
+          "key_features": [
+            "Authentification",
+            "Enchères en temps réel",
+            "RBAC (contrôle d'accès par rôle)",
+            "Gestion des transactions",
+            "WebSocket"
+          ]
+        },
+        "portfolio": {
+          "description": "Mon portfolio présentant mes compétences, expériences et projets en tant que développeur logiciel.",
+          "key_features": ["Design responsive", "Mode sombre", "Internationalisation", "Animations"]
+        }
+      },
+      "buttons": {
+        "code": "Code source",
+        "demo": "Demo",
+        "no_code": "Code source confidentiel",
+        "no_demo": "Démo non disponible"
+      }
     }
   },
   "navbar": {
