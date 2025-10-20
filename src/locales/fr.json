@@ -10,7 +10,7 @@
       "rotating_texts": {
         "fullstack_dev": "Développeur Full-Stack",
         "tech_explorer": "Explorateur Technologique",
-        "uiux_lover": "Passionné de UI/UX"
+        "uiux_lover": "Passionné d'UI/UX"
       }
     },
     "experiences": {
@@ -111,6 +111,12 @@
     "languageChanged": "Langage changé en français."
   },
   "footer": {
-    "rights": "Mayeul Deries. Tous droits réservés."
+    "rights": "Mayeul Deries. Tous droits réservés.",
+    "rotating_texts": {
+      "fullstack_dev": "Développeur Full-Stack",
+      "tech_explorer": "Explorateur Technologique",
+      "uiux_lover": "Passionné d'UI/UX"
+    },
+    "built_with": "Mon Portfolio | Créé avec React, TailwindCSS & Motion."
   }
 }

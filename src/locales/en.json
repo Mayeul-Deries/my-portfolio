@@ -99,6 +99,12 @@
     "languageChanged": "Language changed to English."
   },
   "footer": {
-    "rights": "Mayeul Deries. All rights reserved."
+    "rights": "Mayeul Deries. All rights reserved.",
+    "rotating_texts": {
+      "fullstack_dev": "Full-Stack Developer",
+      "tech_explorer": "Tech Explorer",
+      "uiux_lover": "UI/UX Lover"
+    },
+    "built_with": "My Portfolio | Built with React, TailwindCSS & Motion."
   }
 }
