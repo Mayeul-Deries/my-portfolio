@@ -19,19 +19,19 @@ export const Footer = () => {
             {t("footer.built_with")}
           </span>
         </div>
-        <div className="flex flex-col md:flex-row pt-2 justify-between items-center">
+        <div className="flex flex-col pt-2 justify-between items-center">
           <p className="text-sm text-gray-500 dark:text-neutral-400">
             © {currentYear} {t("footer.rights")}
           </p>
-          <div className="flex gap-8">
+          <div className="flex gap-8 md:pt-2">
             <Link
-              to="https://github.com/mayeul-deries"
+              to="mailto:mayeul.deries@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 md:mt-0 text-gray-500 dark:text-white hover:text-black dark:hover:text-neutral-300 transition"
               aria-label="GitHub"
             >
-              <Github className="w-4 h-4" />
+              <Mail className="w-4 h-4" />
             </Link>
             <Link
               to="https://www.linkedin.com/in/mayeul-deries/"
@@ -43,13 +43,13 @@ export const Footer = () => {
               <Linkedin className="w-4 h-4" />
             </Link>
             <Link
-              to="mailto:tmayeul.deries@gmail.com"
+              to="https://github.com/mayeul-deries"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 md:mt-0 text-gray-500 dark:text-white hover:text-black dark:hover:text-neutral-300 transition"
               aria-label="GitHub"
             >
-              <Mail className="w-4 h-4" />
+              <Github className="w-4 h-4" />
             </Link>
           </div>
         </div>
