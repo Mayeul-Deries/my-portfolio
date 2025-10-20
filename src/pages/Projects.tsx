@@ -13,6 +13,7 @@ const projects = [
     description: "job_tracker.description",
     icon: Sheet,
     iconColor: "text-green-500",
+    iconColorDark: "text-green-400",
     iconBg: "bg-green-500/10",
     keyFeatures: "job_tracker.key_features",
     stack: ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
@@ -25,6 +26,7 @@ const projects = [
     description: "pharmadesk.description",
     icon: Database,
     iconColor: "text-green-500",
+    iconColorDark: "text-green-400",
     iconBg: "bg-green-500/10",
     keyFeatures: "pharmadesk.key_features",
     stack: ["Angular", "Supabase", "PostgreSQL", "TailwindCSS"],
@@ -35,6 +37,7 @@ const projects = [
     description: "lets_go_lego.description",
     icon: ToyBrick,
     iconColor: "text-green-500",
+    iconColorDark: "text-green-400",
     iconBg: "bg-green-500/10",
     keyFeatures: "lets_go_lego.key_features",
     stack: ["React", "Node.js", "Express", "MongoDB", "Styled Components"],
@@ -46,6 +49,7 @@ const projects = [
     description: "portfolio.description",
     icon: FileCode,
     iconColor: "text-green-500",
+    iconColorDark: "text-green-400",
     iconBg: "bg-green-500/10",
     keyFeatures: "portfolio.key_features",
     stack: ["React", "TailwindCSS", "Framer Motion"],
@@ -109,7 +113,7 @@ export const Projects = () => {
                   {/* Header */}
                   <CardHeader className="flex items-start gap-4">
                     <div className={`p-3 rounded-lg ${proj.iconBg} flex-shrink-0`}>
-                      <Icon className={`h-6 w-6 ${proj.iconColor}`} />
+                      <Icon className={`h-6 w-6 ${proj.iconColor} dark:${proj.iconColorDark}`} />
                     </div>
                     <div className="flex-1 min-w-0">
                       <h3 className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">{proj.title}</h3>

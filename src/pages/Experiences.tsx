@@ -110,7 +110,7 @@ export const Experiences = () => {
                   <div className="hidden sm:block absolute left-6 top-6 w-5 h-5 rounded-full bg-primary border-4 border-background shadow-lg" />
 
                   {/* Card */}
-                  <Card className="w-full p-6 hover:shadow-lg hover:shadow-primary/10 transition-all duration-300 border-border/50 hover:border-primary/50 bg-card/80 backdrop-blur-sm">
+                  <Card className="w-full p-6 hover:shadow-lg hover:shadow-primary/10 transition-all duration-300 border-2 border-border/50 hover:border-green-700/50 bg-card/80 backdrop-blur-sm">
                     <div className="flex items-start gap-4">
                       <div className="p-3 rounded-lg bg-primary/10 text-primary">
                         <exp.icon className="h-6 w-6" />
