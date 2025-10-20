@@ -87,6 +87,33 @@
         "no_code": "Confidential source code",
         "no_demo": "Demo not available"
       }
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "I'm always open to discussing new opportunities, collaborations, or projects. Feel free to reach out through one of the channels below.",
+      "labels": {
+        "contact": "Contact Me",
+        "connect": "Or connect with Me",
+        "location": "Grenoble, France"
+      },
+      "buttons": {
+        "email": {
+          "label": "Email",
+          "description": "mayeul.deries@gmail.com"
+        },
+        "whatsapp": {
+          "label": "Quick Chat",
+          "description": "Available 8-5 CET"
+        },
+        "linkedin": {
+          "label": "LinkedIn",
+          "description": "Visit my LinkedIn"
+        },
+        "github": {
+          "label": "GitHub",
+          "description": "Explore my work"
+        }
+      }
     }
   },
   "navbar": {

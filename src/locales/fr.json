@@ -99,6 +99,33 @@
         "no_code": "Code source confidentiel",
         "no_demo": "Démo non disponible"
       }
+    },
+    "contact": {
+      "title": "Prenez contact",
+      "description": "Je suis toujours ouvert à discuter de nouvelles opportunités, collaborations ou projets. N'hésitez pas à me contacter via l'un des canaux ci-dessous.",
+      "labels": {
+        "contact": "Contactez Moi",
+        "connect": "Ou connectez-vous avec moi",
+        "location": "Grenoble"
+      },
+      "buttons": {
+        "email": {
+          "label": "Email",
+          "description": "mayeul.deries@gmail.com"
+        },
+        "whatsapp": {
+          "label": "Chat rapide",
+          "description": "Disponible de 8h à 17h CET"
+        },
+        "linkedin": {
+          "label": "LinkedIn",
+          "description": "Visitez mon profil LinkedIn"
+        },
+        "github": {
+          "label": "GitHub",
+          "description": "Découvrez mon travail"
+        }
+      }
     }
   },
   "navbar": {
