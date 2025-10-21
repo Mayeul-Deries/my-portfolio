@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Heart } from "lucide-react";
+import { ArrowDown, FolderOpen, Heart, Mail } from "lucide-react";
 import { scrollToSection } from "@/utils/scrollToSection";
 import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/ui/badge";
@@ -130,7 +130,7 @@ export const Home = () => {
                   <motion.div key={index} whileHover={{ y: -3 }} variants={itemVariants}>
                     <Badge
                       variant="secondary"
-                      className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 hover:bg-green-200 dark:hover:bg-green-800 transition-colors cursor-pointer"
+                      className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 hover:bg-green-200 dark:hover:bg-green-800 transition-colors"
                     >
                       {skill}
                     </Badge>
@@ -142,7 +142,7 @@ export const Home = () => {
 
           {/* CTA Buttons */}
 
-          <motion.div className="flex flex-col sm:flex-row gap-2 justify-center items-center w-full" variants={itemVariants}>
+          <motion.div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full" variants={itemVariants}>
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -152,8 +152,9 @@ export const Home = () => {
               <Button
                 variant="outline"
                 onClick={(e) => scrollToSection("contact", e)}
-                className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2"
+                className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2 cursor-pointer"
               >
+                <Mail className="w-4 h-4" />
                 <span>{t("pages.home.button.action1")}</span>
               </Button>
             </motion.div>
@@ -166,8 +167,9 @@ export const Home = () => {
               <Button
                 variant="outline"
                 onClick={(e) => scrollToSection("projects", e)}
-                className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2"
+                className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg bg-green-300 hover:bg-green-300/80 dark:bg-green-950 dark:text-white hover:dark:text-green-200 dark:hover:bg-green-900/20 flex items-center justify-center gap-2 cursor-pointer"
               >
+                <FolderOpen className="w-4 h-4" />
                 <span>{t("pages.home.button.action2")}</span>
               </Button>
             </motion.div>
