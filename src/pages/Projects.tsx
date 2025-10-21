@@ -76,7 +76,7 @@ export const Projects = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="min-h-screen flex sm:py-20 items-center justify-center px-6 md:px-10 lg:px-16" id="projects">
+    <section className="min-h-screen flex py-24 items-center justify-center px-6 md:px-10 lg:px-16" id="projects">
       <div className="container mx-auto max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
