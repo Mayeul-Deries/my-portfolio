@@ -101,7 +101,9 @@ export const Navbar = () => {
         {/* Mobile */}
         <div className="flex md:hidden justify-between items-center p-1">
           <div className="font-medium text-xl">
-            <Link to="/">Mayeul</Link>
+            <Link to="/" onClick={(e) => scrollToSection("home", e)}>
+              Mayeul
+            </Link>
           </div>
           <Menu onClick={() => setOpen(!open)} className="cursor-pointer" />
         </div>
