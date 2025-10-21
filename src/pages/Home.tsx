@@ -91,7 +91,9 @@ export const Home = () => {
           {/* Presentation */}
           <div className="mb-4">
             <motion.h1 className="text-4xl sm:text-6xl font-bold mb-2" variants={itemVariants}>
-              <span className="text-foreground">Mayeul Deries</span>
+              <span className="bg-gradient-to-r from-black dark:from-white/80 via-green-500 to-black dark:to-white/80 bg-[length:200%_100%] animate-shine bg-clip-text text-transparent">
+                Mayeul Deries
+              </span>
             </motion.h1>
 
             {/* Rotating texts with blur */}
@@ -122,7 +124,9 @@ export const Home = () => {
           <motion.div className="flex flex-wrap justify-center gap-8 mb-12">
             <motion.div>
               <h3 className="text-xl font-semibold mb-4 flex justify-center items-center gap-2">
-                <Heart className="h-5 w-5 text-red-500" />
+                <motion.div whileHover={{ scale: 3, rotate: -30, x: -10 }} whileTap={{ scale: 0.95 }}>
+                  <Heart className="h-5 w-5 text-red-500" />
+                </motion.div>
                 {t("pages.home.skills")}
               </h3>
               <motion.div className="flex flex-wrap justify-center gap-2">
@@ -141,7 +145,6 @@ export const Home = () => {
           </motion.div>
 
           {/* CTA Buttons */}
-
           <motion.div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full" variants={itemVariants}>
             <motion.div
               whileHover={{ scale: 1.05 }}
