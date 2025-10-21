@@ -4,7 +4,7 @@ import { ArrowDown, Heart } from "lucide-react";
 import { scrollToSection } from "@/utils/scrollToSection";
 import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/ui/badge";
-import { easeOut, motion } from "framer-motion";
+import { easeOut, motion, AnimatePresence, type Variants } from "framer-motion";
 
 export const Home = () => {
   const { t } = useTranslation();
@@ -57,6 +57,33 @@ export const Home = () => {
     },
   };
 
+  // Blur animation on rotating texts
+  const blurVariants: Variants = {
+    initial: {
+      opacity: 0,
+      y: 20,
+      filter: "blur(8px)",
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+      filter: "blur(0px)",
+      transition: {
+        duration: 0.4,
+        ease: easeOut,
+      },
+    },
+    exit: {
+      opacity: 0,
+      y: -20,
+      filter: "blur(6px)",
+      transition: {
+        duration: 0.4,
+        ease: easeOut,
+      },
+    },
+  };
+
   return (
     <section id="home" className="min-h-screen pt-20 sm:pt-36 flex items-center justify-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -67,12 +94,21 @@ export const Home = () => {
               <span className="text-foreground">Mayeul Deries</span>
             </motion.h1>
 
-            <motion.h2
-              className="flex text:lg sm:text-xl font-normal text-muted-foreground mb-4 min-h-10 sm:min-h-16 items-center justify-center text-center px-4 sm:px-8"
-              variants={itemVariants}
-            >
-              <span className="break-words max-w-full">{t(`pages.home.rotating_texts.${rotatingTexts[index]}`)}</span>
-            </motion.h2>
+            {/* Rotating texts with blur */}
+            <div className="relative h-10 sm:h-14 overflow-hidden flex justify-center items-center">
+              <AnimatePresence mode="wait">
+                <motion.span
+                  key={rotatingTexts[index]}
+                  variants={blurVariants}
+                  initial="initial"
+                  animate="animate"
+                  exit="exit"
+                  className="absolute text-lg sm:text-xl text-muted-foreground"
+                >
+                  {t(`pages.home.rotating_texts.${rotatingTexts[index]}`)}
+                </motion.span>
+              </AnimatePresence>
+            </div>
           </div>
 
           <motion.p
