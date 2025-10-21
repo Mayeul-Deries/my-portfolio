@@ -19,7 +19,10 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="min-h-[70vh] flex flex-col items-center justify-center text-center px-6 md:px-10 lg:px-16 py-24">
+    <section
+      id="contact"
+      className="min-h-[70vh] flex flex-col items-center justify-center text-center px-6 md:px-10 lg:px-16 py-24 bg-muted/30"
+    >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
