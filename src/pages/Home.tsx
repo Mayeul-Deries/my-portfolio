@@ -150,8 +150,9 @@ export const Home = () => {
               className="w-full sm:w-auto sm:min-w-[145px]"
             >
               <Button
+                variant="outline"
                 onClick={(e) => scrollToSection("contact", e)}
-                className="w-full font-medium px-6 py-2 rounded-2xl shadow-sm transition-all duration-200 hover:shadow-lg"
+                className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2"
               >
                 <span>{t("pages.home.button.action1")}</span>
               </Button>
@@ -165,7 +166,7 @@ export const Home = () => {
               <Button
                 variant="outline"
                 onClick={(e) => scrollToSection("projects", e)}
-                className="w-full border border-gray-300 font-medium px-6 py-2 rounded-2xl hover:shadow-lg transition-all duration-200"
+                className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2"
               >
                 <span>{t("pages.home.button.action2")}</span>
               </Button>

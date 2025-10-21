@@ -59,7 +59,7 @@ export default function Contact() {
                 >
                   <Button
                     variant="outline"
-                    className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-sm transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2"
+                    className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2"
                   >
                     <a href="mailto:mayeul.deries@gmail.com" target="_blank" className="flex items-center gap-2">
                       <Mail className="w-4 h-4" />
@@ -75,7 +75,7 @@ export default function Contact() {
                 >
                   <Button
                     variant="outline"
-                    className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-sm transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2"
+                    className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2"
                   >
                     <a href="https://wa.me/33699453963" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                       <MessageCircle className="w-4 h-4" />
@@ -98,7 +98,7 @@ export default function Contact() {
                 >
                   <Button
                     variant="outline"
-                    className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-sm transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2"
+                    className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2"
                   >
                     <a
                       href="https://www.linkedin.com/in/mayeul-deries/"
@@ -119,7 +119,7 @@ export default function Contact() {
                 >
                   <Button
                     variant="outline"
-                    className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-sm transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2"
+                    className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2"
                   >
                     <a
                       href="https://github.com/Mayeul-Deries"
