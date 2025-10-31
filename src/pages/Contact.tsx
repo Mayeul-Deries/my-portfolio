@@ -54,7 +54,10 @@ export default function Contact() {
             <div className="space-y-6">
               <h3 className="text-base font-semibold text-green-700 dark:text-green-400">{t("pages.contact.labels.contact")}</h3>
               <motion.div className="flex flex-col sm:flex-row gap-2 justify-center items-center w-full" variants={itemVariants}>
-                <motion.div
+                <motion.a
+                  href="mailto:mayeul.deries@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   transition={{ duration: 0.2 }}
@@ -64,13 +67,14 @@ export default function Contact() {
                     variant="outline"
                     className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2 cursor-pointer"
                   >
-                    <a href="mailto:mayeul.deries@gmail.com" target="_blank" className="flex items-center gap-2">
-                      <Mail className="w-4 h-4" />
-                      <span>{t("pages.contact.buttons.email.label")}</span>
-                    </a>
+                    <Mail className="w-4 h-4" />
+                    <span>{t("pages.contact.buttons.email.label")}</span>
                   </Button>
-                </motion.div>
-                <motion.div
+                </motion.a>
+                <motion.a
+                  href="https://wa.me/33699453963"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   transition={{ duration: 0.2 }}
@@ -80,12 +84,10 @@ export default function Contact() {
                     variant="outline"
                     className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2 cursor-pointer"
                   >
-                    <a href="https://wa.me/33699453963" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                      <MessageCircle className="w-4 h-4" />
-                      <span>{t("pages.contact.buttons.whatsapp.label")}</span>
-                    </a>
+                    <MessageCircle className="w-4 h-4" />
+                    <span>{t("pages.contact.buttons.whatsapp.label")}</span>
                   </Button>
-                </motion.div>
+                </motion.a>
               </motion.div>
             </div>
 
@@ -93,7 +95,10 @@ export default function Contact() {
             <div className="space-y-6">
               <h3 className="text-base font-semibold text-green-700 dark:text-green-400">{t("pages.contact.labels.connect")}</h3>
               <motion.div className="flex flex-col sm:flex-row gap-2 justify-center items-center w-full" variants={itemVariants}>
-                <motion.div
+                <motion.a
+                  href="https://www.linkedin.com/in/mayeul-deries/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   transition={{ duration: 0.2 }}
@@ -103,18 +108,14 @@ export default function Contact() {
                     variant="outline"
                     className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2 cursor-pointer"
                   >
-                    <a
-                      href="https://www.linkedin.com/in/mayeul-deries/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2"
-                    >
-                      <Linkedin className="w-4 h-4" />
-                      <span>{t("pages.contact.buttons.linkedin.label")}</span>
-                    </a>
+                    <Linkedin className="w-4 h-4" />
+                    <span>{t("pages.contact.buttons.linkedin.label")}</span>
                   </Button>
-                </motion.div>
-                <motion.div
+                </motion.a>
+                <motion.a
+                  href="https://github.com/Mayeul-Deries"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   transition={{ duration: 0.2 }}
@@ -124,17 +125,10 @@ export default function Contact() {
                     variant="outline"
                     className="w-full border border-gray-300 px-6 py-2 rounded-2xl shadow-md transition-all duration-200 hover:shadow-lg hover:bg-green-100 dark:hover:bg-green-900/20 flex items-center justify-center gap-2 cursor-pointer"
                   >
-                    <a
-                      href="https://github.com/Mayeul-Deries"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2"
-                    >
-                      <Github className="w-4 h-4" />
-                      <span>{t("pages.contact.buttons.github.label")}</span>
-                    </a>
+                    <Github className="w-4 h-4" />
+                    <span>{t("pages.contact.buttons.github.label")}</span>
                   </Button>
-                </motion.div>
+                </motion.a>
               </motion.div>
             </div>
           </div>
