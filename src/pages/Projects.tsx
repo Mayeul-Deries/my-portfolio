@@ -21,6 +21,19 @@ const projects = [
     demoLink: "https://jobtracker-pro.vercel.app/",
   },
   {
+    title: "CV Builder",
+    subtitles: ["Frontend"],
+    description: "cv_builder.description",
+    icon: FileCode,
+    iconColor: "text-green-500",
+    iconColorDark: "text-green-400",
+    iconBg: "bg-green-500/10",
+    keyFeatures: "cv_builder.key_features",
+    stack: ["Next.js", "TailwindCSS", "OpenAI API", "Deepl API"],
+    githubLink: "https://github.com/Mayeul-Deries/resume-builder",
+    demoLink: "https://design-cv.vercel.app/",
+  },
+  {
     title: "Pharmadesk",
     subtitles: ["Frontend", "Serverless"],
     description: "pharmadesk.description",
@@ -42,18 +55,6 @@ const projects = [
     keyFeatures: "lets_go_lego.key_features",
     stack: ["React", "Node.js", "Express", "MongoDB", "Styled Components"],
     githubLink: "https://github.com/BerriatMagasin/letsgo-lego",
-  },
-  {
-    title: "Portfolio",
-    subtitles: ["Frontend"],
-    description: "portfolio.description",
-    icon: FileCode,
-    iconColor: "text-green-500",
-    iconColorDark: "text-green-400",
-    iconBg: "bg-green-500/10",
-    keyFeatures: "portfolio.key_features",
-    stack: ["React", "TailwindCSS", "Framer Motion"],
-    githubLink: "https://github.com/Mayeul-Deries/my-portfolio",
   },
 ];
 

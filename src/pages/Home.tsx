@@ -23,6 +23,7 @@ export const Home = () => {
     "Docker",
     "Vercel",
     "Render",
+    "LLMs APIs",
   ];
 
   const [index, setIndex] = useState(0);

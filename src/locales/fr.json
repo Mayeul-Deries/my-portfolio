@@ -88,9 +88,17 @@
             "WebSocket"
           ]
         },
-        "portfolio": {
-          "description": "Mon portfolio présentant mes compétences, expériences et projets en tant que développeur logiciel.",
-          "key_features": ["Design responsive", "Mode sombre", "Internationalisation", "Animations"]
+        "cv_builder": {
+          "description": "Conception d'un générateur de CV optimisé pour les ATS avec aperçu en temps réel, amélioration de texte alimentée par l'IA et support multilingue.",
+          "key_features": [
+            "Aperçu en temps réel du CV",
+            "Design responsive",
+            "Amélioration de texte par IA (OpenAI GPT 4o)",
+            "Traduction multilingue (DeepL API)",
+            "Internationalisation",
+            "Import/Export PDF avec métadonnées",
+            "Évaluation de l'efficacité ATS"
+          ]
         }
       },
       "buttons": {

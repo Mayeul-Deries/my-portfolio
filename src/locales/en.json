@@ -76,9 +76,17 @@
           "description": "Created an online real-time auction platform for Lego lovers, allowing them to buy, sell, and bid on unique Lego products. Developed as part of a school team project.",
           "key_features": ["Authentication", "Real-time Bidding", "RBAC", "Transaction Management", "WebSocket"]
         },
-        "portfolio": {
-          "description": "My portfolio showcasing my skills, experiences, and projects as a software developer.",
-          "key_features": ["Responsive Design", "Dark Mode", "Internationalization", "Animations"]
+        "cv_builder": {
+          "description": "Designed an ATS-optimized resume builder with real-time preview, AI-powered text enhancement, and multi-language support.",
+          "key_features": [
+            "Real-time CV Preview",
+            "Responsive Design",
+            "AI Text Enhancement (OpenAI GPT 4o)",
+            "Multi-language Translation (DeepL API)",
+            "Internationalization",
+            "PDF Import/Export with Metadata",
+            "ATS Effectiveness Scoring"
+          ]
         }
       },
       "buttons": {
