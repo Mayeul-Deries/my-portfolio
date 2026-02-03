@@ -1,4 +1,5 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
+import { SEO } from "@/components/SEO";
 import { Home } from "@/pages/Home";
 import { Navbar } from "@/components/customs/Navbar";
 import { Footer } from "@/components/customs/Footer";
@@ -8,6 +9,7 @@ import Contact from "@/pages/Contact";
 
 const RootLayout = () => (
   <>
+    <SEO />
     <Navbar />
     <Outlet />
     <Footer />
