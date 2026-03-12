@@ -1,7 +1,7 @@
 {
   "pages": {
     "home": {
-      "me": "As a software engineering student, I specialize in creating modern and high-performance applications. My journey has allowed me to develop strong expertise in full-stack development, with a particular interest in emerging technologies such as artificial intelligence and cloud computing.",
+      "me": "As a software engineering student, I specialize in creating modern applications, AI agents, and robust AI infrastructures. My journey has allowed me to develop strong expertise in full-stack development and intelligent architectures.",
       "skills": "Main stack & Tools",
       "button": {
         "action1": "Contact Me",
@@ -9,8 +9,8 @@
       },
       "rotating_texts": {
         "fullstack_dev": "Full-Stack Developer",
-        "tech_explorer": "Tech Explorer",
-        "uiux_lover": "UI/UX Lover"
+        "tech_explorer": "AI Agent Creator",
+        "uiux_lover": "AI Infrastructure Architect"
       }
     },
     "experiences": {
@@ -135,17 +135,17 @@
   },
   "seo": {
     "default": {
-      "title": "Mayeul Deries",
-      "description": "Portfolio of Mayeul Deries, Full Stack Developer specializing in web development and AI agent creation.",
-      "keywords": "Mayeul Deries, Full Stack Developer, Next.js, React, Node.js, Portfolio, Web Development, AI, AI Agents, Agents IA, IA, Full Stack Developer, Web Developer, Web Development"
+      "title": "Mayeul Deries | Software Engineer & AI Agents",
+      "description": "Portfolio of Mayeul Deries, Full-Stack Developer specializing in building AI Agents, intelligent infrastructures, and modern applications.",
+      "keywords": "Mayeul Deries, AI, AI Agents, AI Infrastructure, LLM, Full-Stack Developer, Next.js, React, Node.js, Artificial Intelligence"
     }
   },
   "footer": {
     "rights": "Mayeul Deries. All rights reserved.",
     "rotating_texts": {
       "fullstack_dev": "Full-Stack Developer",
-      "tech_explorer": "Tech Explorer",
-      "uiux_lover": "UI/UX Lover"
+      "tech_explorer": "AI Agent Creator",
+      "uiux_lover": "AI Infrastructure Architect"
     },
     "built_with": "My Portfolio | Built with React, TailwindCSS & Motion."
   }
