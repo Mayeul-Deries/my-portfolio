@@ -8,9 +8,9 @@
         "action2": "Mes projets"
       },
       "rotating_texts": {
-        "fullstack_dev": "Développeur Full-Stack",
-        "tech_explorer": "Créateur d'Agents IA",
-        "uiux_lover": "Architecte Infrastructures IA"
+        "fullstack_dev": "Ingénieur Logiciel",
+        "tech_explorer": "Spécialiste LLM & RAG",
+        "uiux_lover": "Architecte de Systèmes IA"
       }
     },
     "experiences": {
@@ -155,9 +155,9 @@
   "footer": {
     "rights": "Mayeul Deries. Tous droits réservés.",
     "rotating_texts": {
-      "fullstack_dev": "Développeur Full-Stack",
-      "tech_explorer": "Créateur d'Agents IA",
-      "uiux_lover": "Architecte Infrastructures IA"
+      "fullstack_dev": "Ingénieur Logiciel",
+      "tech_explorer": "Spécialiste LLM & RAG",
+      "uiux_lover": "Architecte de Systèmes IA"
     },
     "built_with": "Mon Portfolio | Créé avec React, TailwindCSS & Motion."
   }

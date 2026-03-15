@@ -8,9 +8,9 @@
         "action2": "My Projects"
       },
       "rotating_texts": {
-        "fullstack_dev": "Full-Stack Developer",
-        "tech_explorer": "AI Agent Creator",
-        "uiux_lover": "AI Infrastructure Architect"
+        "fullstack_dev": "Software Engineer",
+        "tech_explorer": "LLM & RAG Specialist",
+        "uiux_lover": "AI Systems Architect"
       }
     },
     "experiences": {
@@ -143,9 +143,9 @@
   "footer": {
     "rights": "Mayeul Deries. All rights reserved.",
     "rotating_texts": {
-      "fullstack_dev": "Full-Stack Developer",
-      "tech_explorer": "AI Agent Creator",
-      "uiux_lover": "AI Infrastructure Architect"
+      "fullstack_dev": "Software Engineer",
+      "tech_explorer": "LLM & RAG Specialist",
+      "uiux_lover": "AI Systems Architect"
     },
     "built_with": "My Portfolio | Built with React, TailwindCSS & Motion."
   }
