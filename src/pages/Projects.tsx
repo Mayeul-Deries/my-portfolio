@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Database, ExternalLink, FileCode, Sheet, ToyBrick, Github } from "lucide-react";
+import { Database, ExternalLink, FileCode, Sheet, ToyBrick, Github, Bot } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -55,6 +55,18 @@ const projects = [
     keyFeatures: "lets_go_lego.key_features",
     stack: ["React", "Node.js", "Express", "MongoDB", "Styled Components"],
     githubLink: "https://github.com/BerriatMagasin/letsgo-lego",
+  },
+  {
+    title: "Claudio",
+    subtitles: ["Desktop App", "AI"],
+    description: "claudio.description",
+    icon: Bot,
+    iconColor: "text-green-500",
+    iconColorDark: "text-green-400",
+    iconBg: "bg-green-500/10",
+    keyFeatures: "claudio.key_features",
+    stack: ["Python", "PyQt6", "Whisper"],
+    githubLink: "https://github.com/Mayeul-Deries/claudio",
   },
 ];
 

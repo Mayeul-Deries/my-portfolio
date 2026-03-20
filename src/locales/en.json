@@ -87,7 +87,18 @@
             "PDF Import/Export with Metadata",
             "ATS Effectiveness Scoring"
           ]
+        },
+        "claudio": {
+          "description": "Voice transcription tool based on OpenAI's Whisper model, running natively on Windows with a minimalist user interface.",
+          "key_features": [
+            "Speech Recognition (OpenAI Whisper)",
+            "LLM API Integration (OpenAI)",
+            "Modern & Minimalist UI/UX",
+            "Global Windows Hotkeys",
+            "Fluid Animations"
+          ]
         }
+
       },
       "buttons": {
         "code": "Source code",

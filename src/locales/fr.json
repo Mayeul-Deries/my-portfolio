@@ -99,7 +99,18 @@
             "Import/Export PDF avec métadonnées",
             "Évaluation de l'efficacité ATS"
           ]
+        },
+        "claudio": {
+          "description": "Outil de transcription vocale basée sur le modèle Whisper d'OpenAI, fonctionnant nativement sur Windows avec une interface utilisateur minimaliste.",
+          "key_features": [
+            "Reconnaissance vocale (OpenAI Whisper)",
+            "Intégration API LLM (OpenAI)",
+            "UI/UX moderne et minimaliste",
+            "Raccourcis globaux Windows",
+            "Animations fluides"
+          ]
         }
+
       },
       "buttons": {
         "code": "Code source",
